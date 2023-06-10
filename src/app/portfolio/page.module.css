@@ -2,6 +2,12 @@
   font-size: 100px;
 }
 
+.mainTitle:hover {
+  font-size: 100px;
+  color: #53c28b;
+  transition: 1s linear;
+}
+
 .container {
 }
 
@@ -21,6 +27,7 @@
   height: 400px;
   position: relative;
   background-size: cover !important;
+  color: white;
 }
 
 .item:nth-child(1) {
