@@ -3,8 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      Footer
-    </div>
+      <div> © 2023 Vishwajit vm. Allright reserve </div>
+      <div>  </div>
+</div>
   )
 }
 

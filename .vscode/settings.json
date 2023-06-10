@@ -1,1 +1,63 @@
-{}
+{
+    "files.autoSaveDelay": 0.1,
+    "editor.minimap.enabled": true,
+    "editor.fontSize": 18,
+    "editor.renderControlCharacters": true,
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "editor.wordWrap": "on",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb",
+        "*.nooa": "default",
+        "*.xlsx": "default"
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.largeFileOptimizations": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "git.confirmSync": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "workbench.startupEditor": "none",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html" : "html",
+        "vue" : "html"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.fontWeight": "normal",
+    "files.autoGuessEncoding": true,
+    "editor.foldingMaximumRegions": 65000,
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.mouseWheelZoom": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "files.autoSave": "afterDelay",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.accessibilitySupport": "off",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "audioCues.volume": 0,
+    "workbench.colorTheme": "Dark+ Material",
+    "[php]": {
+        
+    },
+    "screencastMode.fontSize": 40,
+    
+}
