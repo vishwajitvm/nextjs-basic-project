@@ -1,6 +1,6 @@
-# Project Name
+# Next js basic project
 
-Welcome to [Project Name]! This is a Next.js website project that showcases various pages including a home page, about page, contact page, dashboard page, and a blog page. The project incorporates an authentication system with Google Authentication, a light and dark mode feature, and utilizes MongoDB to store and retrieve data.
+Welcome to [Next js basic project]! This is a Next.js website project that showcases various pages including a home page, about page, contact page, dashboard page, and a blog page. The project incorporates an authentication system with Google Authentication, a light and dark mode feature, and utilizes MongoDB to store and retrieve data.
 
 ## Features
 
@@ -36,7 +36,7 @@ Welcome to [Project Name]! This is a Next.js website project that showcases vari
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to [Project Name], please follow these steps:
+Contributions are welcome! If you'd like to contribute to [Next js basic project], please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature: `git checkout -b feature-name`
