@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useState } from 'react'
 import styles from './page.module.css'
+import useSWR from 'swr'
 
 const Dashboard = () => {
   //=========OLD METHOD =============
@@ -26,6 +27,10 @@ const Dashboard = () => {
 
   //====SWR=====
   //============
+  const fetcher = (...args) => fetch(...args).then((res) => res.json())
+ const getApiUrl = "https://jsonplaceholder.typicode.com/posts" ;
+
+  const { data, error, isLoading } = useSWR( getApiUrl , fetcher)
   
 
   console.log(data);
