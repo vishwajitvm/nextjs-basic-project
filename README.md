@@ -20,7 +20,7 @@ Welcome to [Next js basic project]! This is a Next.js website project that showc
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/project-name.git`
+1. Clone the repository: `https://github.com/vishwajitvm/nextjs-basic-project`
 2. Install dependencies: `npm install`
 3. Set up the MongoDB connection in the project configuration file.
 4. Obtain a Google API Key and configure it in the project.
@@ -50,9 +50,9 @@ This project is licensed under the [License Name] - see the [LICENSE](LICENSE) f
 
 ## Contact
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- Twitter: [@your-twitter-handle](https://twitter.com/your-twitter-handle)
-- GitHub: [your-github-username](https://github.com/your-github-username)
+- Email: [vishwajitmall50@gmail.com](mailto:vishwajitmall50@gmail.com)
+- Twitter: [@Vishwajit-vm](https://twitter.com/VishwajitVm)
+- GitHub: [Vishwajit vm](https://github.com/vishwajitvm)
 
 ---
 
