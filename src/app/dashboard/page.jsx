@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react'
 import styles from './page.module.css'
 
 const Dashboard = () => {
-  const [data, setData] = useState([]);
+  //=========OLD METHOD =============
+  /*const [data, setData] = useState([]);
   const [err, setErr] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -21,7 +22,11 @@ const Dashboard = () => {
       setIsLoading(false);
     };
     getData();
-  }, []);
+  }, []); */
+
+  //====SWR=====
+  //============
+  
 
   console.log(data);
   return (
