@@ -15,12 +15,11 @@ async function getData(id) {
   return res.json();
 }
 
-
+//GENRATE DYNAMIC TITLE AND META DATA FOR SCO
 export async function generateMetadata({ params }) {
-
   const post = await getData(params.id)
   return {
-    title: post.title,
+    title: "VM - " + post.title,
     description: post.desc,
   };
 }
