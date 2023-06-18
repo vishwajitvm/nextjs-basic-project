@@ -1,12 +1,14 @@
 import mongoose from "mongoose";
 
-const { schema } = mongoose
-const postSchema = new schema({
+const { Schema } = mongoose;
+
+// Check if the "Post" model is already defined
+const Post = mongoose.models.Post || mongoose.model("Post", new Schema({
     title: {
         type: String,
         required: true
     },
-    desc:{
+    desc: {
         type: String,
         required: true
     },
@@ -22,7 +24,6 @@ const postSchema = new schema({
         type: String,
         required: true
     }
-    
-} , { timestamps: true })
+}, { timestamps: true }));
 
-export default mongoose.model("Post" , postSchema ) ;
+export default Post;
