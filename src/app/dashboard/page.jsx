@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 import styles from './page.module.css'
 import useSWR from 'swr'
+import { useSession } from 'next-auth/react'
 
 const Dashboard = () => {
   //=========OLD METHOD =============
@@ -27,6 +28,10 @@ const Dashboard = () => {
 
   //====SWR=====
   //============
+  const session  = useSession() ;
+  console.log(session);
+  console.log("SESSION ND");
+
   const fetcher = (...args) => fetch(...args).then((res) => res.json())
  const getApiUrl = "https://jsonplaceholder.typicode.com/posts" ;
 
