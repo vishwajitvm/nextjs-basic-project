@@ -59,5 +59,6 @@
         
     },
     "screencastMode.fontSize": 40,
+    "npm-scripts.showStartNotification": false,
     
 }

@@ -37,8 +37,6 @@ const Dashboard = () => {
 
   const { data, error, isLoading } = useSWR( getApiUrl , fetcher)
   
-
-  console.log(data);
   return (
     <div className={styles.container}>
       dashboard
