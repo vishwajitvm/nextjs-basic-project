@@ -1,6 +1,7 @@
-import Button from '@/components/button/Button'
-import styles from './page.module.css'
-import Image from 'next/image'
+import React from "react";
+import styles from "./page.module.css";
+import Button from "@/components/Button/Button";
+import Image from "next/image";
 import { items } from "./data.js";
 import { notFound } from "next/navigation";
 
@@ -14,10 +15,10 @@ const getData = (cat) => {
   return notFound();
 };
 
-const Category = ( {params} ) => {
+const Category = ({ params }) => {
   const data = getData(params.category);
-    return (
-      <div className={styles.container}>
+  return (
+    <div className={styles.container}>
       <h1 className={styles.catTitle}>{params.category}</h1>
 
       {data.map((item) => (
@@ -38,8 +39,7 @@ const Category = ( {params} ) => {
         </div>
       ))}
     </div>
-    )
-  }
-  
-  export default Category
-  
+  );
+};
+
+export default Category;

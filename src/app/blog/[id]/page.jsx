@@ -15,11 +15,12 @@ async function getData(id) {
   return res.json();
 }
 
-//GENRATE DYNAMIC TITLE AND META DATA FOR SCO
+
 export async function generateMetadata({ params }) {
+
   const post = await getData(params.id)
   return {
-    title: "VM - " + post.title,
+    title: post.title,
     description: post.desc,
   };
 }
@@ -37,7 +38,7 @@ const BlogPost = async ({ params }) => {
           <div className={styles.author}>
             <Image
               src={data.img}
-              alt="Image Not found"
+              alt=""
               width={40}
               height={40}
               className={styles.avatar}
